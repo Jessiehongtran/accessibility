@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        <title></title>
+
+    </head>
+    <body>
+        <h1>What if everything in this world is Universal</h1>
+        <div class="row">
+            <p class="rowtext">Like this search bar is always on the right</p>
+            <input 
+                placeholder="Search..."
+                class="search"
+            />
+        </div>
+        <div class="row">
+            <p class="rowtext">Like this button just means a button itself</p>
+            <button>Check in</button>
+        </div>
+        <div class="row">
+            <p class="rowtext">Like this text is just simply black and white <span style="font-size: 26px;">and why can't it be a little bit bigger so that everyone can see it clearly</span></p>
+        </div>
+        <div class="col">
+            <p class="rowtext">Like this image has alternative text</p>
+            <img src="https://i.pinimg.com/600x315/38/48/48/384848efce2e9ed9b60bcfea3dd8370a.jpg" alt="an old man walking" role="presentation"/>
+        </div>
+        <div class="row">
+            <p class="rowtext">Like this text has <span style="color: red">a role</span> attached to it:</p>
+            <div role="contentinfo">
+                This website was built by Hong.
+            </div>
+        </div>
+        <div class="row">
+            <p class="rowtext">Like how this input field has a label for it</p>
+            <label for="username" style="color: blue">Username </label>
+            <input id="username" type="text" name="username" placeholder="Type your username"">
+        </div>
+        <div class="row">
+            <p class="rowtext">Like how this button can be toggled if you click by mouse then use RETURN key to control it</p>
+            <button class="hi" onclick="sayHi()" onkeydown="returnHi()">Say Hi</button>
+            <p style="display: none; margin-left: 10px;" id="hi" >Hi</p>
+        </div>
+        <script src="script.js" ></script>
+    </body>
+</html>

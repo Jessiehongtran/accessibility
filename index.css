@@ -1,0 +1,55 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 40px 20px 40px ;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+input {
+    padding: 10px 15px 10px 15px;
+    border: 1px solid black;
+    min-width: 300px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.search {
+    background-image: url("https://assets.stickpng.com/thumbs/585e4ad1cb11b227491c3391.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 20px 20px;
+}
+
+.rowtext {
+    margin-right: 10px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding: 8px 15px 8px 15px;
+    cursor: pointer
+}
+
+button:hover {
+    background-color: yellow;
+    border: 1px solid black;
+    color: black;
+    font-weight: bold;
+}
+
+.hi {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.hi:hover {
+    border: 2px solid black;
+}
